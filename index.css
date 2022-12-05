@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+    color: #101820ff;
+    font-weight: bolder;
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+}
+/* HEADER HOME */
+
+.header-home{
+
+    background: #24252a;
+    color: white;
+    display: flex;
+    width: 100%;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10% ;
+
+}
+.nav-links{
+    list-style-type: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color:#0da16f;
+
+}
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+button{ 
+    background-color: #10b981;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0da16f;
+
+} 
+
+
+/* MAIN BODY */
+h1{
+    text-align: center;
+    font-size: 70px ;
+}  
+.main{
+    padding: 20px;
+    height: 100vh;
+    place-items: center;
+}
+
+.main .pHome{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+/* teams body */
+#teams{    
+
+    place-items: center;
+    height: 80vh;
+    background: #bff4bb;
+    border-radius: 20px;
+    
+}
+
+#teams .profile{
+
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    height: 225px;
+    width: 225px;
+    border: 1px solid #bff4bb;
+    border-radius: 20px;
+    
+}
+#teams .profile img{
+    border-radius: 20px;
+}
+
+/* about */
+#about{
+    margin: 70px;
+    text-align: center;
+    height: 60vh;
+
+}
+#about h1{
+    font-size: x-large;
+}
+
+#about .content{
+    background: white;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    margin-top: -10px;
+
+}
+#about .content p{
+    padding: 5px;
+    color: #10b981;
+    font-weight: bold;
+}
